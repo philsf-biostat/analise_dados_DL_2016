@@ -84,8 +84,8 @@ Figuras descritivas das variáveis.
 
 Tabelas de associação e p-valores dos testes de independência.
 
-- [Tabelas TXT][]
-- [Independência][]
+- Tabelas TXT
+- Independência
 
 [Tabelas TXT]: resultados/tc.txt
 [Independência]: resultados/diferencas-tc.md
@@ -94,7 +94,7 @@ Tabelas de associação e p-valores dos testes de independência.
 
 p-valores do teste de normalidade das variáveis numéricas
 
-- [normalidade][] ([download][download-norm-txt])
+- normalidade (download)
 
 [normalidade]: resultados/normalidade.md
 [download-norm-txt]: resultados/normalidade.txt?raw=true
