@@ -40,7 +40,15 @@ Além destas características, alguns dados devem ser resumidos como:
 
 ## Releases
 
-Para baixar todos os resultados em um único arquivo ZIP, veja o(s) link(s) abaixo:
+Os releases a seguir indicam o estado da consultoria. O planejamento foi dividito em etapas, e serão liberados de forma incremental. O link de cada release será disponibilizado assim que ele ficar pronto.
+
+Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) link(s) abaixo:
+
+- v0.1 (download) - Rascunho inicial
+- v0.2 (download) - Descrição dos dados
+- v0.3 (download) - Associação de dados categóricos
+- v0.4 (download) - Análise de sobrevivência
+- v1.0 (download) - Versão final da análise
 
 [Todos os releases][].
 
