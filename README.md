@@ -58,8 +58,8 @@ Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) l
 
 Todas as informações descritas abaixo estão sumarizadas no relatório. Este inclui uma sugestão de texto descrevendo a metodologia, e sugestões resumidas de descrição sintética dos resultados analisados.
 
-- [Relatório (formato PDF)][]
-- [Relatório (formato Word)][]
+- Relatório (formato PDF)
+- Relatório (formato Word)
 
 ## Resultados brutos ##
 
@@ -69,12 +69,20 @@ Abaixo estão os resultados "brutos". A apresentação foi formatada no relatór
 
 Sumário das estatísticas descritivas das variáveis.
 
-* ~~[descricao.txt][] ([download][download-desc-txt])~~
+* descricao.txt (download)
 
 [descricao.txt]: resultados/descricoes.md
 [download-desc-txt]: resultados/descricoes.txt?raw=true
 
+
+### Figuras ###
+
+Figuras descritivas das variáveis.
+
+
 ### Tabelas de contingência ###
+
+Tabelas de associação e p-valores dos testes de independência.
 
 - [Tabelas TXT][]
 - [Independência][]
@@ -90,11 +98,3 @@ p-valores do teste de normalidade das variáveis numéricas
 
 [normalidade]: resultados/normalidade.md
 [download-norm-txt]: resultados/normalidade.txt?raw=true
-
-### Testes de significância ###
-
-
-### Figuras ###
-
-Figuras descritivas das variáveis.
-
