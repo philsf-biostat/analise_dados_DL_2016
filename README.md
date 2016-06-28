@@ -1,12 +1,42 @@
 # Análise de dados Davi Lugin
 
-## Objetivos
+Dados de Davi Lugin (R4 INTO 2016)
 
-A análise deve 
+## Objetivo da análise
 
-- Descritivas
+A análise deve contribuir com os seguintes resultados:
+
+- Estatísticas descritivas
 - Associação dos dados qualitativos
+  - OH x SUP
+  - OF x SUP
+  - IS x Falha
 - Análise de sobrevivência (Kaplan-Meier)
+
+As análises serão feitas em um *dataset* resumido e anonimizado. Os dados brutos **não serão** disponibilizados neste repositório, apenas as figuras e o relatório.
+
+### Características dos dados
+
+De acordo com o consultante, os seguintes dados devem ser classificados como:
+
+- OF é um dado qualitativo binário
+- OH é um dado qualitativo ordinal
+- IS é um dado qualitativo ordinal
+
+Deve-se considerar apenas os casos completos, descartando os casos com dados faltantes. Deve-se explicitar o n de casos excluídos.
+
+Além destas características, alguns dados devem ser resumidos como:
+
+- TOTAL agrupado por
+  - < 13
+  - 13 a 14
+  - 15 a 17
+  - 18
+
+- IS agrupado por
+  - < 5
+  - 5
+  - > 5
 
 ## Releases
 
