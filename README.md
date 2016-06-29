@@ -40,7 +40,7 @@ Além destas características, alguns dados devem ser resumidos como:
 
 ## Releases
 
-Os releases a seguir indicam o estado da consultoria. O planejamento foi dividito em etapas, e serão liberados de forma incremental. O link de cada release será disponibilizado assim que ele ficar pronto.
+Os releases a seguir indicam o estado da consultoria. O planejamento foi dividido em etapas, e serão liberados de forma incremental. O link de cada release será disponibilizado assim que ele ficar pronto.
 
 Para baixar todos os resultados do release em um único arquivo ZIP, veja o(s) link(s) abaixo:
 
