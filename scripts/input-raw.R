@@ -17,5 +17,5 @@ dados$IS.2 <- ordered(dados$IS.2)
 dados$TOT <- ordered(dados$TOT)
 str(dados)
 
-write.csv2(dados, "dataset/dados_DL2016.csv")
+write.csv2(dados, "dataset/dados_DL2016.csv", row.names = FALSE)
 rm(dados)
