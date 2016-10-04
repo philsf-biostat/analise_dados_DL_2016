@@ -7,6 +7,11 @@ dados <- import(file = "../dados_normalizados_DL_2016.xlsx", which = 1)
 # library(xlsx)
 # dados <- read.xlsx("../dados_normalizados_DL_2016.xlsx", 1)
 
+dados$OH.orig <- dados$OH
+dados$OH <- !is.na(dados$OH.orig)
+dados$OF.orig <- dados$OF
+dados$OF <- !is.na(dados$OF.orig)
+
 # Dropando colunas desnecessárias
 dados <- dados[, !names(dados) %in% c("Nome", "Revisao", "OBS", "DOR","MARCHA","ADM")]
 
