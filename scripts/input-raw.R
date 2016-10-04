@@ -7,5 +7,8 @@ dados <- import(file = "../dados_normalizados_DL_2016.xlsx", which = 1)
 # library(xlsx)
 # dados <- read.xlsx("../dados_normalizados_DL_2016.xlsx", 1)
 
+# Dropando colunas desnecessárias
+dados <- dados[, !names(dados) %in% c("Nome", "Revisao", "OBS", "DOR","MARCHA","ADM")]
+
 write.csv2(dados, "dataset/dados_DL2016.csv", row.names = FALSE)
 rm(dados)
