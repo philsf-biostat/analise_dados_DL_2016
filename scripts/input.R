@@ -12,8 +12,8 @@ dados$TOTAL <- ordered(dados$TOTAL)
 
 # Ordenando levels das variáveis binárias
 levels(dados$Falha) <- list(S="S", N="N")
-levels(dados$OH) <- list(S="TRUE", N="FALSE")
-levels(dados$OF) <- list(S="TRUE", N="FALSE")
+levels(dados$OF) <- list(S="S", N="N")
+levels(dados$OH) <- list(S="S", N="N")
 
 # Agrupando fatores conforme requerido
 levels(dados$IS) <- list("<5" = 0:4, "5" = "5", ">5" = 6:11)
